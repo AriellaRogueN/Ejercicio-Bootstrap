@@ -15,9 +15,13 @@
 
 <body>
     <div class="container">
-      <div class="col-md-12">
+      <div class="col-md-6 col-md-push-3">
+          <div id="Title"class= "text-center">
+              <h1>A traveler's Diary</h1>
+          </div>
         <div id="carousel-1" class="carousel slide" data-ride="carousel">
         <!--indicadores-->
+        
           <ol class="carousel-indicators">
             <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-1" data-slide-to="1"></li>
@@ -25,6 +29,7 @@
             <li data-target="#carousel-1" data-slide-to="3"></li>
             <li data-target="#carousel-1" data-slide-to="4"></li>
           </ol>
+        
         <!--Contenedor Slide-->
            <div class="carousel-inner" role="listbox">
         <!--Agregamos items-->
@@ -59,7 +64,20 @@
                </div>
             </div>
           </div>
+            <!--Controles-->
+            <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria hidde="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            
+            <a href="#carousel-1" class="rigth carousel-control" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" hidde="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
         </div>
+     
+        
+        
       </div>
     </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"

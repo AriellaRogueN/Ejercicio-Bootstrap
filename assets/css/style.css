@@ -1,3 +1,12 @@
 body{
-    background-color: gray;
+background-color: #8d6e63;
+}
+
+img{
+    width:100%;
+}
+
+.active{
+    background-color: violet;
+    font-size: 2em;
 }

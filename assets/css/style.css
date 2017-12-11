@@ -6,7 +6,10 @@ img{
     width:100%;
 }
 
-.active{
-    background-color: violet;
-    font-size: 2em;
+.item{
+    border: 1em solid white;
+}
+    
+#title h1{
+    color:white;
 }
